@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.container {
+  display: grid;
+  padding: 110px;
+  grid-template-columns: 300px 300px 300px;
+
+  justify-content: center;
+
+  gap: 20px;
+}
+.groupe1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  font-family: "Poppins";
+  font-weight: 300;
+  color: hsl(212, 6%, 44%);
+}
+.title2 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-style: bold;
+  color: hsl(234, 12%, 34%);
+}
+.title3 {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-align: center;
+  color: hsl(212, 6%, 44%);
+}
+.par1 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px;
+  padding: 20px;
+  border-top: 1px solid;
+  border-left-color: beige;
+  border-top-color: hsl(180, 62%, 55%);
+  border-top-width: 3px;
+  border-radius: 4px;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+.Monitors {
+  font-family: "Poppins";
+  font-size: 40px;
+}
+.par2 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px;
+  padding: 20px;
+  border-top: 1px solid;
+  border-left-color: beige;
+  border-top-color: hsl(0, 78%, 62%);
+  border-top-width: 3px;
+  border-radius: 4px;
+}
+.par3 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px;
+  padding: 20px;
+  border-top: 1px solid;
+  border-left-color: beige;
+  border-top-color: hsl(34, 97%, 64%);
+  border-top-width: 3px;
+  border-radius: 4px;
+}
+.par4 {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px;
+  padding: 20px;
+  border-top: 1px solid;
+  border-left-color: beige;
+  border-top-color: hsl(212, 86%, 64%);
+  border-top-width: 3px;
+  border-radius: 4px;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+.Supervisor {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(234, 12%, 34%);
+}
+.Team {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(234, 12%, 34%);
+}
+
+.Calc {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(234, 12%, 34%);
+}
+.Karma {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(234, 12%, 34%);
+}
+
+.uses {
+  font-size: small;
+}
+.Monitors {
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
+  font-size: 12px;
+}
+.uses {
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
+  font-size: 12px;
+}
+.our {
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
+  font-size: 12px;
+}
+
+.Regularly {
+  font-family: "Poppins";
+  color: hsl(212, 6%, 44%);
+  font-size: 12px;
+}
+
+.img-div {
+  display: flex;
+  justify-content: end;
+}
+
+img {
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+/* Media Queries pour la responsivité */
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+  
+  .groupe1 {
+    order: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .title, .title2, .title3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
